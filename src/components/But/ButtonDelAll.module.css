@@ -1,0 +1,31 @@
+.button {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 15%;
+  margin-right: 5px;
+  background-color: bisque;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.count {
+  background-color: bisque;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  font-size: 30px;
+  font-weight: 700;
+}

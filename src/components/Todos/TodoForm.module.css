@@ -1,0 +1,38 @@
+.formStyle {
+  margin-bottom: 30px;
+}
+
+.formStyle form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formStyle input {
+  height: 20px;
+  width: 500px;
+  font-size: 20px;
+  font-style: italic;
+  background-color: bisque;
+}
+
+.formStyle button {
+  margin-left: 20px;
+  height: 50px;
+  cursor: pointer;
+  background-color: bisque;
+  font-size: 1.9rem;
+}
+
+.formStyle button,
+.formStyle input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formStyle button:hover {
+  background-color: #4180bb;
+  color: aliceblue;
+  transition: 0.7s;
+}

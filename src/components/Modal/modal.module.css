@@ -1,0 +1,73 @@
+.globalModal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.globalModal_active {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+}
+
+.modal {
+  height: 200px;
+  width: 400px;
+  background: rgba(229, 229, 236);
+  border-radius: 2%;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.modal__text {
+  height: 40%;
+  padding-top: 40px;
+}
+
+.modal__button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(186, 209, 229);
+  cursor: pointer;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(147, 188, 224);
+  height: 30px;
+}
+.but {
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 20px;
+  width: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10%;
+  border: none;
+}
+.but:hover {
+  background-color: tomato;
+}

@@ -1,0 +1,68 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid rgb(7, 83, 182);
+  color: #112d49;
+  transition: 0.5s;
+  background-color: #4180bb;
+}
+
+.todoCompleted {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid rgb(7, 83, 182);
+  color: #112d49;
+  transition: 0.5s;
+  background-color: rgb(7, 83, 182);
+  opacity: 0.3;
+}
+
+.todoText {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  color: aliceblue;
+  font-style: italic;
+}
+
+.icon {
+  font-size: 2.3rem;
+  margin-right: 10px;
+  color: rgb(16, 72, 156);
+}
+
+.icon__done {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.icon__close {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.icon__close:hover {
+  color: rgb(228, 64, 64);
+  transition: 0.5s;
+}
+
+.icon__done:hover {
+  color: rgb(12, 218, 22);
+  transition: 0.5s;
+}
+
+.iconText {
+  font-size: 20px;
+  color: aliceblue;
+}
